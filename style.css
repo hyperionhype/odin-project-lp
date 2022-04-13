@@ -21,7 +21,8 @@ body {
 	max-width: 1366; /* 1366px */
 }
 
-section {
+section,
+footer {
 	max-width: 1366px; /* 1366px*/
 	height: 100%;
 	width: 100%;
@@ -103,7 +104,7 @@ section {
 	padding-bottom: 20px;
 }
 
-button {
+.text-btn button {
 	padding: 10px 15px;
 	font-weight: 600;
 	margin: 0;
@@ -190,3 +191,63 @@ button:hover {
 	text-align: right;
 	padding-right: 15px;
 }
+
+/* quote end */
+
+/* cta start */
+
+.cta {
+	background: #f9faf8;
+	padding: 30px 80px;
+}
+
+.card {
+	background: #388ef6;
+	border-radius: 6px;
+	padding: 15px 20px;
+	justify-content: space-between;
+	align-items: center;
+	gap: 30px;
+	color: #e5e7eb;
+	display: flex;
+}
+
+.card .text .p1 {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.card .text .p2 {
+	font-size: 15px;
+}
+
+.card button {
+	padding: 10px 15px;
+	font-weight: 600;
+	margin: 0;
+	border-radius: 6px;
+	border: 2px solid #f9faf8;
+	background: #388ef6;
+	color: #f9faf8;
+}
+
+.card button:hover {
+	background: #f9faf8;
+	color: #388ef6;
+}
+
+/* cta end */
+
+/* footer start */
+
+footer {
+	background: #1f2937;
+	padding: 30px 0;
+}
+
+footer .text p {
+	text-align: center;
+	font-size: 25px;
+	color: #f9faf8;
+}
+/* footer end */
