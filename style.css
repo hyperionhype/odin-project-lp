@@ -23,8 +23,10 @@ body {
 
 section {
 	max-width: 1366px; /* 1366px*/
+    min-height: 450px;
 	height: 100%;
 	width: 100%;
+    align-items: center;
 }
 
 /* navbar start */
@@ -124,3 +126,41 @@ section {
 }
 
 /* home end */
+
+/* gallery start */
+
+#gallery {
+    display: block;
+    background: #f9faf8;
+    color: #1f2937;
+}
+
+.title {
+    height: 20%;
+}
+
+.title h1 {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.picture {
+    height: 80%;
+    display: flex;
+    padding: 0 80px;
+    width: 100%;
+    margin: 0 auto;
+    gap: 5px;
+}
+
+.picture img {
+    flex: 33%;
+    width: 100%;
+    height: auto;
+    border: 2px solid #388ef6;
+}
+
+/* gallery end */
