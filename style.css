@@ -18,11 +18,63 @@ html {
 
 body {
 	width: 100%;
-    max-width: inherit; /* 1366px */
+	max-width: inherit; /* 1366px */
 }
 
 section {
-    width: inherit; /* 1366px*/
-    height: 100%;
+	width: 1366px; /* 1366px*/
+	height: 100%;
 }
 
+/* navbar start */
+.navbar {
+	position: sticky;
+	max-width: inherit;
+	width: 100%;
+	top: 0;
+	background-color: #1f2937;
+	padding: 20px 80px;
+}
+
+.navbar .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo a {
+	color: #f9faf8;
+	font-size: 2rem;
+	font-weight: 600;
+	padding: 2px 5px;
+	border: 1px solid;
+	transition: all 0.3s ease;
+}
+
+.logo a:hover {
+	background-color: lightcoral;
+}
+
+.menu ul {
+	display: block;
+	padding: 5px;
+}
+
+.menu li {
+	list-style: none;
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.menu li a {
+	color: #f9faf8;
+	font-size: 1.5rem;
+	font-weight: 500;
+	transition: all 0.3s ease;
+}
+
+.menu li a:hover {
+	background-color: lightcoral;
+}
+/* navbar end */
