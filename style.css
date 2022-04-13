@@ -23,10 +23,8 @@ body {
 
 section {
 	max-width: 1366px; /* 1366px*/
-    min-height: 450px;
 	height: 100%;
 	width: 100%;
-    align-items: center;
 }
 
 /* navbar start */
@@ -88,28 +86,24 @@ section {
 	height: 100%;
 	color: #f9faf8;
 }
-
-.text,
+.text-btn,
 .tron {
-	display: inline-block;
+	display: grid;
 	width: 45%;
-}
-
-.text div {
-	padding-bottom: 2px;
 }
 
 .text-1 {
 	font-size: 3.5vw;
 	font-weight: 600;
+	padding-bottom: 20px;
 }
 
 .text-2 {
-	font-size: 2vw;
+	font-size: 1.5vw;
+	padding-bottom: 20px;
 }
 
-.text button {
-	display: block;
+button {
 	padding: 10px 15px;
 	font-weight: 600;
 	margin: 0;
@@ -117,6 +111,11 @@ section {
 	border: 2px solid #388ef6;
 	background: #388ef6;
 	color: #f9faf8;
+}
+
+button:hover {
+	background-color: #f9faf8;
+	color: #388ef6;
 }
 
 .tron img {
@@ -130,37 +129,64 @@ section {
 /* gallery start */
 
 #gallery {
-    display: block;
-    background: #f9faf8;
-    color: #1f2937;
+	display: block;
+	height: 450px;
+	background: #f9faf8;
+	color: #1f2937;
 }
 
 .title {
-    height: 20%;
+	height: 20%;
 }
 
 .title h1 {
-    text-align: center;
-    padding: 20px 0;
-    font-size: 3.6rem;
-    font-weight: 600;
-    color: #1f2937;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 3.6rem;
+	font-weight: 600;
+	color: #1f2937;
 }
 
 .picture {
-    height: 80%;
-    display: flex;
-    padding: 0 80px;
-    width: 100%;
-    margin: 0 auto;
-    gap: 5px;
+	height: 80%;
+	display: flex;
+	padding: 0 80px;
+	width: 100%;
+	margin: 0 auto;
+	gap: 5px;
 }
 
 .picture img {
-    flex: 33%;
-    width: 100%;
-    height: auto;
-    border: 2px solid #388ef6;
+	flex: 33%;
+	width: 100%;
+	height: auto;
+	border: 2px solid #388ef6;
 }
 
 /* gallery end */
+
+/* quote start */
+
+#quote {
+	background: #e5e7eb;
+	color: #1f2937;
+	padding: 80px 80px;
+}
+
+.list {
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+.list .p1 {
+	text-align: justify;
+	font-style: italic;
+	padding-bottom: 20px;
+	font-size: 36px;
+}
+
+.list .p2 {
+	font-size: 30px;
+	text-align: right;
+	padding-right: 15px;
+}
